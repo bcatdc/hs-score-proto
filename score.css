@@ -1,0 +1,161 @@
+
+        html{
+            font-family: Poppins;
+            padding: 0px;
+            margin:0px;
+            border:0px;
+        }
+
+body{
+    background-color: #000;
+    color:#ddd;
+    font-size: 1vw;
+    padding: 0px;
+    margin:0px;
+    border:0px;
+}
+
+.WSWrapper {
+position: relative;
+padding-bottom: 56.25%; /* 16:9, for an aspect ratio of 1:1 change to this value to 100% */
+padding-left: 0px;
+padding-right:0px:
+margin:0px;
+border:0px;
+}
+
+.WS{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: #444;
+overflow: hidden;
+padding: 0px;
+margin:0px;
+border:0px;
+}
+
+#banner{
+    width: 100%;
+}
+
+#split{
+    padding: 0px;
+    margin:0px;
+    border:0px;
+}
+
+#left_side{
+    display: inline-block;
+    width:49%;
+    vertical-align: top;
+    padding: 0px;
+    margin:0px;
+    border:0px;
+}
+#right_side{
+    display: inline-block;
+    width:50%;
+    vertical-align: top;
+    padding: 0px;
+    margin:0px;
+    border:0px;
+}
+
+h1{
+    font-weight: 600;
+    font-size: 4vw;
+    color: #eee;
+}
+h2{
+    font-size: 2vw;
+        font-weight: 400;
+}
+
+h1,h2{
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+#loading{
+    font-size: 2vw;
+}
+        table {
+            font-size: 1vw;
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 100%;
+    }
+    thead th {
+        border: 0;
+        padding: 0em;
+        text-align: center;
+        font-weight: 600;
+        font-size: 2.5vw;
+    }
+    td{
+        border-right: 1px solid #ddd;
+        padding: .5vw;
+        text-align: center;
+        width: 4vw;
+    }
+
+    td:nth-child(1) {
+  /* your stuff here */
+  font-weight: 600;
+  font-size: 2.5vw;
+  text-align: right;
+}
+    tbody {
+        padding: .5vw;
+    }
+
+    #key{
+        border: 1px solid #eee;
+        padding: 1vw;
+        margin-right: 4vw;
+        margin-top: 12vw;
+        margin-left: 8vw;
+        font-size: 1.5vw;
+        color: #444;
+        background-color: #eee;
+
+    }
+
+.keyHeader{
+    font-weight: 400;
+    display: block;
+}
+
+.keyDetail{
+    font-size: 1.3vw;
+    color: #777;
+    display: block;
+}
+
+
+.pie {
+  --w:5vw;
+
+  width: var(--w);
+  aspect-ratio: 1;
+  position: relative;
+  display: inline-grid;
+  place-content: center;
+  margin: .1vw;
+  font-size: 1.8vw;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.pie:before {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  inset: 0;
+  background: conic-gradient(var(--c) calc(var(--p)*1%),#0000 0);
+  -webkit-mask:radial-gradient(farthest-side,#0000 calc(99% - var(--b)),#000 calc(100% - var(--b)));
+          mask:radial-gradient(farthest-side,#0000 calc(99% - var(--b)),#000 calc(100% - var(--b)));
+}

@@ -1,0 +1,1 @@
+# hs-score-proto
